@@ -1,0 +1,6 @@
+{{!-- Code to see users in the display --}}
+{{#each users}}
+  [ "id":{{ _id }},"name":{{ name }}, "lastname":{{ lastname }}, "city": {{ city }}, "country": {{ country }}, "age": {{ age }} ] 
+{{else}}
+  There are no Users
+{{/each}}
